@@ -1,0 +1,50 @@
+body {
+  color: blue;
+  background-color: rgba(36, 43, 18, 0.5);
+  margin: 0 auto;
+}
+
+.name, .email, .message {
+  border: none;
+  margin: none;
+  padding: none;
+}
+
+form {
+  width: 400px;
+  background-color: white;
+  boxsizing: border-box;
+  position: relative;
+}
+
+.name, .email, .message {
+  background-color: rgba(0,0,0,0.1);
+}
+
+button {
+  display: inline-block;
+  border: solid rgba(0, 0, 0, 0.1) 5px;
+  background-color: white;
+}
+
+.name, .email {
+  width: 40%;
+}
+
+
+.message {
+  display: block;
+  margin 0 auto;
+  width: 90%;
+}
+
+.name, .email, .message, button {
+  margin: 2.5%;
+  padding: 2.5%;
+  border-radius: 5px;
+}
+
+.email {
+  position: absolute;
+  right: 0px;
+}
